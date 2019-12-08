@@ -3,15 +3,6 @@
 ## 声明
 其实并没什么区别 教程是在fastdfs编写人余青的原github中docker的基础上进行了一些修改，本质上还是余青上的作者写的教程
 
-## 使用版本
-
-fastdfs-6.04
-
-fastdfs-nginx-module-1.22
-
-libfastcommon-1.0.42
-
-
 ## 目录介绍
 ### conf 
 Dockerfile 所需要的一些配置文件
@@ -19,7 +10,13 @@ Dockerfile 所需要的一些配置文件
 
 ### source 
 FastDFS 所需要的一些需要从网上下载的包(包括 FastDFS 本身) ,因为天朝网络原因 导致 build 镜像的时候各种出错
-所以干脆提前下载下来了 . 
+所以干脆提前下载下来了 . 使用版本：
+
+fastdfs-6.04
+
+fastdfs-nginx-module-1.22
+
+libfastcommon-1.0.42
 
 
 ## 使用方法
